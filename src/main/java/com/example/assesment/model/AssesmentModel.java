@@ -16,7 +16,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 
 public class AssesmentModel {
-     
+     @Id
     private String id;
     private String questionText;
     private List<String> options;
